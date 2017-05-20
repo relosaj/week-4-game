@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Crystals Collector</title>
+</head>
+<body background="assets/images/cheap_diagonal_fabric.png">
+	
+	<h1>
+		<div class="heading">Crystals Collector!</div>
+	</h1>
+
+
+	<div class="row" id="main">
+		<div class="col-sm-12 col-md-12 col-lg-12" id="instructions">
+			<p>You will be given a random number at the start of the game</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crysal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time when the game starts, the game will change the value of each crystal</p>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12" id="targetBox">
+			<p><span id="target"</span></span></p>
+		</div>
+
+		<div class="col-sm-12 col-md-12 col-lg-12" id="scoreBoard">
+			<p><span id="message"</span></span></p>
+			<p>Wins: <span id="wins"</span></p>
+			<p>Losses: <span id="losses"</span></p>
+		</div>
+	</div>		
+
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12" class="gems">
+			<div id="gem1"><img src="assets/images/ruby.png" height="100px"></div>
+			<div id="gem2"><img src="assets/images/stone.png" height="100px"></div>
+			<div id="gem3"><img src="assets/images/emerald.png" height="100px"></div>
+			<div id="gem4"><img src="assets/images/diamond.png" height="100px"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12" id="totalScore">
+			<p>Your total score is: <span id="gameScore"</span></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12" id="tempScore"></div>
+	</div>	
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

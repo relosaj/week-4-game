@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+}
+
+/*.row {
+	margin-left: 20px;
+	border-style: solid red 5px;
+}*/
+
+.heading {
+	clear: all;
+	float: left;
+	padding: 40px;
+	background-color: brown;
+	color: white;
+	font-size: 30px;
+	font-family: arial;
+	margin: 20px 20px 5px 20px;
+}
+
+#main{
+	width: 100%;
+}
+
+#instructions {
+/*	clear: all;*/
+	float: left;
+	padding: 40px 40px 100px 40px;
+	background-color: tan;
+	color: green;
+	font-size: 16px;
+	font-family: arial;
+	margin: 5px 0px 5px 40px;
+	width: 600px;
+}
+
+#targetBox {
+	clear: all;
+	float: left;
+	font-size: 40px;
+	font-family: arial;
+	background-color: green;
+	color: black;
+	margin: 5px 5px 5px 40px;
+	padding: 50px;
+	height: 190px;
+	width: 200px;
+}
+
+#scoreBoard {
+	clear: all;
+	float: left;
+	font-size: 20px;
+	font-family: arial;
+	background-color: lightblue;
+	color: black;
+	margin: 5px 400px 5px 5px;
+	padding: 50px 50px 50px 10px;
+	width: 180px;
+	height: 190px;
+}
+
+.gems {
+	clear: all;
+	float: left;
+	margin: 5px 5px 5px 40px;
+
+}
+
+#gem1 {
+	clear: all;
+	float: left;
+	/*margin: 0px 10px 10px 0px;*/
+	margin: 5px 5px 5px 25px;
+}
+
+#gem2 {
+	clear: all;
+	float: left;
+/*	margin: 0px 10px 10px 0px;*/
+	margin: 5px;
+}
+
+#gem3 {
+	clear: all;
+	float: left;
+/*	margin: 0px 10px 10px 0px;*/
+	margin: 5px;
+}
+
+#gem4 {
+	clear: all;
+	float: left;
+/*	margin: 0px 10px 10px 0px;*/
+	margin: 5px;
+}
+
+#totalScore {
+	clear: all;
+	float: left;
+	background-color: #008080;
+	color: white;
+	margin: 5px 5px 5px 40px;
+	padding: 10px 10px 10px 10px;
+	width: 200px;
+}
+
+#tempScore {
+	clear: all;
+	float: left;
+	background-color: #008080;
+	color: white;
+	margin: 5px 400px 5px 40px;
+	padding: 10px 10px 10px 5px;
+	height: 190px;
+	width: 200px;	
+}
