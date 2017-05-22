@@ -66,6 +66,12 @@ h1 {
 	height: 190px;
 }
 
+.crystal-image {
+	clear: all;
+	float: left;
+	margin: 5px 5px 5px 40px;
+
+}
 .gems {
 	clear: all;
 	float: left;
@@ -116,8 +122,12 @@ h1 {
 	float: left;
 	background-color: #008080;
 	color: white;
-	margin: 5px 400px 5px 40px;
-	padding: 10px 10px 10px 5px;
+	font-size: 48px;
+	font-family: arial;
+/*	margin: 5px 400px 5px 40px;
+	padding: 10px 10px 10px 5px;*/
 	height: 190px;
-	width: 200px;	
+	width: 200px;
+	margin: 5px 5px 5px 40px;
+	padding: 50px;
 }
